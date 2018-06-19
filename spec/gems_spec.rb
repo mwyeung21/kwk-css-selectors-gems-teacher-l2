@@ -13,7 +13,7 @@ RSpec.describe "Selector Gems" do
   it 'selects the image inside the element with an ID of beach CSS selector' do
     expect(css_file_contents).to include('#sand img'), "Hint: select #sand"
   end
-
+  %Changed this
   it 'selects the image based on it being a sibling that follows immediately after the element with an id of ocean (using adjacent sibling selector)' do
     expect(css_file_contents).to include('#ocean + img'), "Hint: add img to #ocean"
   end
